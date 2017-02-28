@@ -1,24 +1,23 @@
-<!-- Static bottom navbar -->
-<div class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bottom-collapse"> <!-- NOTE! data-target was changed to .bottom-collapse -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Bottom Bar</a>
+      <a class="navbar-brand" href="#" title="Cognitive Conversations">Cognitive Conversations</a>
     </div>
-    <div class="navbar-collapse collapse bottom-collapse"> <!-- NOTE! The extra bottom-collapse class put on here -->
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">More</a></li>
-        <li><a href="#about">Bottom</a></li>
-        <li><a href="#contact">Menus</a></li>
+        <li class="active"><a href="#">How Watson Learns</a></li>
+        <li><a href="#">How Humans Learn</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="../navbar/">Default</a></li>
-        <li><a href="../navbar-fixed-top/">Fixed Bottom</a></li>
+        <li><a href="#" title="Sign Up"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#" title="Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#" title="Contact Us"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
-</div>
+</nav>
